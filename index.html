@@ -5,23 +5,23 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Главная</title>
+    <title>Document</title>
 </head>
 <body>
 <header class="main-header">
-
-    <a href="#">ТЕХНОМАРТ</a>
-
-    <div class="header-top">
-
-        <input type="search" placeholder="Поиск:">
-
+    <div class="main-header-logo">
+        <a href="#">ТЕХНОМАРТ</a>
+    </div>
+    <section class="header-top">
+        <div class="search">
+            <input type="search" placeholder="Поиск:">
+        </div>
         <a href="#" class="bookmarks">Закладки: 0</a>
         <a href="#" class="basket">Корзина: 0</a>
         <a href="#" class="checkout">Оформить заказ</a>
 
-    </div>
-    <div class="header-bottom">
+    </section>
+    <section class="header-bottom">
 
     <p class="header-description">
         Интернет-магазин<br>
@@ -29,10 +29,8 @@
         и инструментов для ремонта
     </p>
 
-    <div class="header-contacts">
-    <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+    <p class="header-telephone">+7 (812) 555-05-55</p>
     <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-    </div>
 
         <a class="login">Войти</a>
         <a class="registration">Регистрация</a>
@@ -48,7 +46,7 @@
             <li><a href="#">Контакты</a></li>
         </ul>
     </nav>
-    </div>
+    </section>
 
 </header>
 <main class="container">
@@ -63,19 +61,19 @@
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#">ПОДРОБНЕЕ О КОМПАНИИ</a>
+        <button type="button">ПОДРОБНЕЕ О КОМПАНИИ</button>
 
         <h2>КОНТАКТЫ</h2>
         <p>Вы можете забрать товар сами,<br>
            заехав в наш офис.</p>
         <!--Здесь будет карта-->
-        <a href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
+        <button type="button">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</button>
 
     </section>
 
 </main>
 <footer class="main-footer">
-<div class="top-footer">
+<section class="top-footer">
     <div class="main-footer-logo">
         <a href="#">ТЕХНОМАРТ</a>
     </div>
@@ -98,8 +96,8 @@
         <li><a href="#">Инструмент</a></li>
         <li><a href="#">Спецпредложения</a></li>
     </ul>
-</div>
-<div class="bottom-footer">
+</section>
+<section class="bottom-footer">
     <p class="copyright">
         © 2010-2016 Компания «Техномарт»<br>
         Все права защищены
@@ -125,7 +123,7 @@
         <b>Разработано:</b>
         <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
     </p>
-</div>
+</section>
 </footer>
 </body>
 </html>
