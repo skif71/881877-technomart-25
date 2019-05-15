@@ -9,17 +9,12 @@
 </head>
 <body>
 <header class="main-header">
-
-        <a href="index.html">ТЕХНОМАРТ</a>
-
+    <a href="index.html">ТЕХНОМАРТ</a>
     <div class="header-top">
-
-            <input type="search" placeholder="Поиск:">
-
+        <input type="search" placeholder="Поиск:">
         <a href="#" class="bookmarks">Закладки: 0</a>
         <a href="#" class="basket basket-catalog">Корзина: 10</a>
         <a href="#" class="checkout">Оформить заказ</a>
-
     </div>
     <div class="header-bottom">
 
@@ -28,18 +23,15 @@
             строительных материалов<br>
             и инструментов для ремонта
         </h1>
-
-       <div class="header-contacts">
-        <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-        <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-       </div>
-
-        <div class="header-user-navigation">
-        <a href="#" class="user">Равшан Джамшутович</a>
-        <a href="#" class="orders">Мои заказы</a>
-        <a href="" class="cabinet">Личный кабинет</a>
+        <div class="header-contacts">
+            <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+            <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
-
+        <div class="header-user-navigation">
+            <a href="#" class="user">Равшан Джамшутович</a>
+            <a href="#" class="orders">Мои заказы</a>
+            <a href="" class="cabinet">Личный кабинет</a>
+        </div>
         <nav class="main-navigation__list">
             <ul class="site-navigation">
                 <li><a href="index.html">Главная</a></li>
@@ -52,43 +44,55 @@
             </ul>
         </nav>
     </div>
-
 </header>
+
 <main class="container">
     <ul class="breadcrumps">
         <li><a href="#">КАТАЛОГ</a></li>
         <li><a href="#">ИНСТРУМЕНТ</a></li>
-        <li class="breadcrumbs-current">Перфораторы</li>
+        <li class="breadcrumbs-current"><a>Перфораторы</a></li>
     </ul>
     <h2>Перфораторы</h2>
 
     <section class="filters">
         <h3 class="visually-hidden">Фильтор товаров</h3>
-
         <form>
-        <fieldset><legend>Производители</legend>
-        <input type="checkbox" id="check1" name="check1" checked>
-        <label for="check1">BOSCH</label>
-        <input type="checkbox" id="check2" name="check2">
-        <label for="check2">ИНТЕРСКОЛ</label>
-        <input type="checkbox" id="check3" name="check3" checked>
-        <label for="check3">MAKITA</label>
-        <input type="checkbox" id="check4" name="check4">
-        <label for="check4">DEWALT</label>
-        <input type="checkbox" id="check5" name="check5">
-        <label for="check5">HITACHI</label>
-        </fieldset>
-
-        <fieldset><legend>ПИТАНИЕ:</legend>
-        <input type="radio" id="radio1" name="radio1" checked>
-        <label for="radio1">АККУМУЛЯТОРНЫЕ</label>
-        <input type="radio" id="radio2" name="radio2">
-        <label for="radio2">СЕТЕВЫЕ</label>
-        </fieldset>
+            <fieldset>
+                <legend>Производители</legend>
+                <label>
+                    <input type="checkbox" name="bosh" checked>
+                    BOSCH
+                </label>
+                <label>
+                    <input type="checkbox" name="interscol">
+                    ИНТЕРСКОЛ
+                </label>
+                <label>
+                    <input type="checkbox" name="makita" checked>
+                    MAKITA
+                </label>
+                <label>
+                    <input type="checkbox" name="dewalt">
+                    DEWALT
+                </label>
+                <label>
+                    <input type="checkbox" name="hitachi">
+                    HITACHI
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>ПИТАНИЕ:</legend>
+                <label>
+                    <input type="radio" name="accumulator" checked>
+                    АККУМУЛЯТОРНЫЕ
+                </label>
+                <label>
+                    <input type="radio" name="network">
+                    СЕТЕВЫЕ
+                </label>
+            </fieldset>
         </form>
-
         <button type="button" class="show-button">ПОКАЗАТЬ</button>
-
     </section>
 
     <section class="catalog">
@@ -227,7 +231,7 @@
                     </a>
                 </p>
 
-                 <img src="img/catalog-item-image-7.jpg" alt="Перфоратор BOSCH BFG 2000" width="218" height="170">
+                <img src="img/catalog-item-image-7.jpg" alt="Перфоратор BOSCH BFG 2000" width="218" height="170">
 
                 <p class="catalog-item-old-price">
                     <b>22500 Р.</b>
