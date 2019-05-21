@@ -56,6 +56,26 @@
 
     <section class="filters">
         <h3 class="visually-hidden">Фильтор товаров</h3>
+        <div class="price-sort">
+            <span>ФИЛЬТР:</span>
+            <span>ЦЕНА:</span>
+
+        </div>
+
+        <div class="range-filter">
+            <div class="range-controls">
+                <div class="scale">
+                    <div class="bar"></div>
+                </div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
+                <input class="min-price" type="text" value="0">
+                <input class="max-price" type="text" value="30000">
+            </div>
+        </div>
+
         <form>
             <fieldset>
                 <legend>Производители</legend>
@@ -94,7 +114,16 @@
         </form>
         <button type="button" class="show-button">ПОКАЗАТЬ</button>
     </section>
-
+    <div class="sorting">
+        <span>СОРТИРОВКА:</span>
+        <ul>
+            <li><a href="#">ПО ЦЕНЕ</a></li>
+            <li><a href="#">ПО ТИПУ</a></li>
+            <li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
     <section class="catalog">
         <h3 class="visually-hidden">Каталог товаров</h3>
         <ul class="catalog-list">
@@ -287,6 +316,33 @@
                 </div>
             </li>
         </ul>
+
+        <ul class="pagination-list">
+            <li class="pagination-item">
+                <a href="#">1</a>
+            </li>
+            <li class="pagination-item pagination-item-current">
+                <a>2</a>
+            </li>
+            <li class="pagination-item">
+                <a href="#">3</a>
+            </li>
+            <li class="pagination-item">
+                <a href="#">СЛЕДУЮЩАЯ</a>
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="about-category">
+        <h3>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h3>
+        <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в
+            кирпиче, бетоне и камне.<br>
+            Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции
+            дрели, шуруповерта и отбойного молотка. В<br>
+            ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и
+            ударная дрель.
+        </p>
     </section>
 
 </main>
@@ -343,6 +399,12 @@
         </p>
     </div>
 </footer>
+<section class="modal modal-checkout">
+    <h2>Товар добавлен в корзину!</h2>
+    <button type="submit">ОФОРМИТЬ ЗАКАЗ</button>
+    <button type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+    <button class="modal-close" type="button">Закрыть</button>
+</section>
 
 </body>
 </html>
