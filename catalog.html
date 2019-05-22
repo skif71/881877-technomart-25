@@ -62,21 +62,24 @@
 
         </div>
 
-        <div class="range-filter">
-            <div class="range-controls">
-                <div class="scale">
-                    <div class="bar"></div>
-                </div>
-                <div class="toggle min-toggle"></div>
-                <div class="toggle max-toggle"></div>
-            </div>
-            <div class="price-controls">
-                <input class="min-price" type="text" value="0">
-                <input class="max-price" type="text" value="30000">
-            </div>
-        </div>
-
         <form>
+            <fieldset>
+                <legend>Цена</legend>
+                <div class="range-filter">
+                    <div class="range-controls">
+                        <div class="scale">
+                            <div class="bar"></div>
+                        </div>
+                        <div class="toggle min-toggle"></div>
+                        <div class="toggle max-toggle"></div>
+                    </div>
+                    <div class="price-controls">
+                        <input class="min-price" type="text" value="0">
+                        <input class="max-price" type="text" value="30000">
+                    </div>
+                </div>
+            </fieldset>
+
             <fieldset>
                 <legend>Производители</legend>
                 <label>
@@ -120,9 +123,11 @@
             <li><a href="#">ПО ЦЕНЕ</a></li>
             <li><a href="#">ПО ТИПУ</a></li>
             <li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
         </ul>
+        <div class="sorting-arrows">
+            <div class="arrow-top"><a href="#"></a></div>
+            <div class="arrow-bottom"><a href="#"></a></div>
+        </div>
     </div>
     <section class="catalog">
         <h3 class="visually-hidden">Каталог товаров</h3>
@@ -322,7 +327,7 @@
                 <a href="#">1</a>
             </li>
             <li class="pagination-item pagination-item-current">
-                <a>2</a>
+                <a href="#">2</a>
             </li>
             <li class="pagination-item">
                 <a href="#">3</a>
@@ -331,7 +336,6 @@
                 <a href="#">СЛЕДУЮЩАЯ</a>
             </li>
         </ul>
-
     </section>
 
     <section class="about-category">
