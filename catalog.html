@@ -66,17 +66,17 @@
             <fieldset>
                 <legend>Цена</legend>
                 <div class="range-filter">
-                    <button class="range-controls">
+                    <div class="range-controls">
                         <div class="scale">
                             <div class="bar"></div>
                         </div>
+                        <button type="button" class="toggle mix-toggle"></button>
                         <button type="button" class="toggle max-toggle"></button>
-                        <button type="button" class="toggle max-toggle"></button>
-                </div>
-                <div class="price-controls">
-                    <input class="min-price" type="text" value="0">
-                    <input class="max-price" type="text" value="30000">
-                </div>
+                    </div>
+                    <div class="price-controls">
+                        <input class="min-price" type="text" value="0">
+                        <input class="max-price" type="text" value="30000">
+                    </div>
                 </div>
             </fieldset>
 
@@ -124,10 +124,12 @@
             <li><a href="#">ПО ТИПУ</a></li>
             <li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
         </ul>
+
         <div class="sorting-arrows">
             <a class="arrow-top" href="#"></a>
             <a class="arrow-bottom" href="#"></a>
         </div>
+
     </div>
     <section class="catalog">
         <h3 class="visually-hidden">Каталог товаров</h3>
