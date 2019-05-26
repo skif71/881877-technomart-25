@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.main-header {
+    background-color: #f3f7f8;
+}
+
+.main-header a {
+    color: #ffffff;
+}
+
+.main-header h1 {
+    background-color: #ee3643;
+}
+
+.main-header h1:hover,
+.main-header h1:focus {
+    background-color: #ca2c37;
+}
+
+.main-header h1:active {
+    background-color: #ba2732;
+}
+
+.main-navigation ul {
+    list-style: none;
+}
+
+.header-top {
+    background-color: #293449;
+    color: #ffffff;
+}
+
+.header-top a:hover,
+.header-top a:focus {
+    background-color: #212a3a;
+}
+
+.header-top a:active {
+    background-color: #161d29;
+    color: #b3b4b6;
+}
+
+.header-top input {
+    background-color: #293449;
+    border: none;
+}
+
+.header-top input:hover {
+    background-color: #212a3a;
+}
+
+.header-top input:focus,
+.header-top input:active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header-description {
+    color: #ee3643;
+}
+
+.header-top .checkout {
+    background-color: #63a63e;
+}
+
+.header-top .checkout:hover,
+.header-top .checkout:focus {
+    background-color: #5fbb2d;
+}
+
+.header-top .checkout:active {
+    background-color: #518534;
+    color: #b3b4b6;
+}
+
+.header-contacts p {
+    color: #32425c;
+}
+
+.header-contacts a {
+    color: #ee3643;
+}
+
+.site-navigation li {
+    background-color: #32425c;
+    color: #ffffff;
+}
+
+.site-navigation li:hover,
+.site-navigation li:focus {
+    background-color: #293449;
+}
+
+.site-navigation li:active {
+    background-color: #1d2739;
+    color: #a1a4a8;
+}
+
+.header-bottom .login {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header-bottom .login:hover,
+.header-bottom .login:focus {
+    color: #ee3643;
+}
+
+.header-bottom .login:active {
+    color: #c5c5c5;
+}
+
+.header-bottom .registration {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header-bottom .registration:hover,
+.header-bottom .registration:focus {
+    color: #ee3643;
+}
+
+.header-bottom .registration:active {
+    color: #c5c5c5;
+}
+
+.header-top .basket-catalog {
+    background-color: #ee3643;
+}
+
+.header-top .basket-catalog:hover,
+.header-top .basket-catalog:focus {
+    background-color: #ca2c37;
+}
+
+.header-top .basket-catalog:active {
+    background-color: #ba2732;
+}
+
+.header-user-navigation a {
+    color: #000000;
+}
+
+.header-user-navigation .user:active {
+    color: #c5cad0;
+}
+
+.header-user-navigation .orders,
+.header-user-navigation .cabinet {
+    color: #32425c;
+    text-decoration: underline;
+}
+
+.header-user-navigation .orders:hover,
+.header-user-navigation .orders:focus,
+.header-user-navigation .cabinet:hover,
+.header-user-navigation .cabinet:focus {
+    color: #ee3643;
+}
+
+.header-user-navigation .orders:active,
+.header-user-navigation .cabinet:active {
+    color: #c5cad0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #ee3643;
+    border: none;
+}
+
+.breadcrumps {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+.inner-page .container h2 {
+    color: #32425c;
+    background-color: #f2f6f8;
+}
+
+.offers__item:first-child {
+    background-color: #ffbf47;
+}
+
+.offers__item:nth-child(2) {
+    background-color: #3bbce3;
+}
+
+.offers__item:nth-child(3) {
+    background-color: #dc91d8;
+}
+
+.info a {
+    color: #ffffff;
+    background-color: #ee3643;
+}
+
+.info a:focus,
+.info a:hover {
+    background-color: #ca2c37;
+}
+
+.info a:active {
+    background-color: #ba2732;
+}
+
+.show-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #e5e5e5;
+}
+
+.contacts a {
+    color: #ffffff;
+    background-color: #ee3643;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    background-color: #ca2c37;
+}
+
+.contacts a:active {
+    background-color: #ba2732;
+}
+
+.catalog-item a {
+    border-radius: 3px;
+}
+
+.catalog-item p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.catalog-item-old-price {
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.item-price a {
+    background-color: #ee3643;
+    color: #ffffff;
+}
+
+.item-price a:hover,
+.item-price a:focus {
+    background-color: #ca2c37;
+}
+
+.item-price a:active {
+    background-color: #ba2732;
+}
+
+.hover-action .buy {
+    background-color: #63a63e;
+    color: #ffffff;
+    border-bottom: 3px solid #367315;
+}
+
+.hover-action .buy:hover,
+.hover-action .buy:focus {
+    background-color: #5fbb2d;
+    border-bottom: 3px solid #367315;
+}
+
+.hover-action .buy:active {
+    background-color: #518534;
+    border: none;
+}
+
+.hover-action .add-to-bookmarks {
+    border: 3px solid #63a63e;
+    color: #32425c;
+}
+
+.hover-action .add-to-bookmarks:focus,
+.hover-action .add-to-bookmarks:hover {
+    border: 3px solid #32425c;
+}
+
+.hover-action .add-to-bookmarks:active {
+    border: 3px solid #c1c6ce;
+    color: #d0d2d6;
+}
+
+.main-footer {
+    color: #ffffff;
+    background-color: #32425c;
+
+}
+
+.logo-footer a {
+    background-color: #ee3643;
+}
+
+.logo-footer a:hover,
+.logo-footer a:focus {
+    background-color: #ca2c37;
+    text-decoration: none;
+}
+
+.logo-footer a:active {
+    background-color: #ba2732;
+    color: #ffffff;
+}
+
+.main-footer ul {
+    list-style: none;
+}
+
+.main-footer a {
+    color: #ffffff;
+}
+
+.main-footer a:focus,
+.main-footer a:hover {
+    text-decoration: underline;
+}
+
+.main-footer a:active {
+    color: #a4abb4;
+    text-decoration: none;
+}
+
+.footer-price a {
+    color: #ffd180;
+}
+
+.footer-price a:active {
+    text-decoration: none;
+    color: #a6906e;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+    background-color: #ee3643;
+}
+
+.footer-feedback a,
+.footer-copyright a {
+    color: #ffd180;
+    background-color: transparent;
+}
+
+.footer-feedback a:active,
+.footer-copyright a:active {
+    color: #e53643;
+}
+
