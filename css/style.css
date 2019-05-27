@@ -19,16 +19,16 @@ body {
     color: #ffffff;
 }
 
-.main-header h1 {
+.logotype {
     background-color: #ee3643;
 }
 
-.main-header h1:hover,
-.main-header h1:focus {
+.logotype:hover,
+.logotype:focus {
     background-color: #ca2c37;
 }
 
-.main-header h1:active {
+.logotype:active {
     background-color: #ba2732;
 }
 
@@ -68,6 +68,7 @@ body {
 
 .header-description {
     color: #ee3643;
+    font-style: italic;
 }
 
 .header-top .checkout {
@@ -174,6 +175,10 @@ body {
     color: #c5cad0;
 }
 
+.header-telephone {
+    border: 3px solid #ffffff;
+}
+
 a {
     text-decoration: none;
 }
@@ -247,6 +252,22 @@ a {
     background-color: #ba2732;
 }
 
+.popular-manufacturers-item {
+    border: 1px solid #e5e5e5;
+}
+
+.popular-manufacturers-item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.catalog-item {
+    border: 1px solid #e5e5e5;
+}
+
+.catalog-item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 .catalog-item a {
     border-radius: 3px;
 }
@@ -307,6 +328,32 @@ a {
     color: #d0d2d6;
 }
 
+.pagination-list li {
+    list-style: none;
+    border: 1px solid #e5e5e5;
+}
+
+.pagination-list li:hover,
+.pagination-list li:focus{
+    border: 1px solid #bdc6ca;
+}
+
+.pagination-list li:active{
+    border: 1px solid #ee3643;
+}
+
+.pagination-list a {
+    color: #000000;
+}
+
+.pagination-item-current {
+    background-color: #ca2c37;
+}
+
+.pagination-item-current a {
+    color: #ffffff;
+}
+
 .main-footer {
     color: #ffffff;
     background-color: #32425c;
@@ -336,15 +383,34 @@ a {
     color: #ffffff;
 }
 
-.main-footer a:focus,
-.main-footer a:hover {
+
+.footer-navigation a:focus,
+.footer-navigation a:hover,
+.footer-price a:focus,
+.footer-price a:hover {
     text-decoration: underline;
 }
 
-.main-footer a:active {
+.footer-navigation a:active,
+.footer-price a:active {
     color: #a4abb4;
     text-decoration: none;
 }
+
+.footer-feedback a:focus,
+.footer-feedback a:hover,
+.footer-copyright a:focus,
+.footer-copyright a:hover {
+    text-decoration: underline;
+}
+
+.footer-feedback a:active,
+.footer-copyright a:active {
+    color: #a4abb4;
+    text-decoration: none;
+}
+
+
 
 .footer-price a {
     color: #ffd180;
@@ -370,4 +436,7 @@ a {
 .footer-copyright a:active {
     color: #e53643;
 }
+
+
+
 
