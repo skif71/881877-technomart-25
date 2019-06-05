@@ -13,6 +13,8 @@ body {
 
 .main-header {
     background-color: #f3f7f8;
+    padding-bottom: 60px;
+    margin-bottom: 59px;
 }
 
 .main-header a {
@@ -69,6 +71,7 @@ body {
 .header-description {
     color: #ee3643;
     font-style: italic;
+    font-size: 16px;
 }
 
 .header-top .checkout {
@@ -206,6 +209,14 @@ a {
     background-color: #f2f6f8;
 }
 
+.offers {
+    color: #ffffff;
+}
+
+.offers a {
+    color: #ffffff;
+}
+
 .offers__item:first-child {
     background-color: #ffbf47;
 }
@@ -217,6 +228,32 @@ a {
 .offers__item:nth-child(3) {
     background-color: #dc91d8;
 }
+
+.offers__item.discounts {
+    background-color: #8ed78f;
+}
+
+.offers__item:last-child {
+    background-color: #ffbf47;
+}
+
+/*---*/
+
+.button {
+    color: #ffffff;
+    background-color: #ee3643;
+}
+
+.button:focus,
+.button:hover {
+    background-color: #ca2c37;
+}
+
+.button:active {
+    background-color: #ba2732;
+}
+
+/*---*/
 
 .info a {
     color: #ffffff;
@@ -250,6 +287,10 @@ a {
 
 .contacts a:active {
     background-color: #ba2732;
+}
+
+.popular-manufacturers {
+    margin-bottom: 85px;
 }
 
 .popular-manufacturers-item {
@@ -437,6 +478,224 @@ a {
     color: #e53643;
 }
 
+.bottom-footer-wrapper {
+    background-color: #293449;
+}
+
+/* сеточные стили */
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 45px;
+    background-color: #293449;
+    height: 42px;
+}
+
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*поправить размеры, пока так для сетки*/
+.logotype {
+    width: 180px;
+    text-align: center;
+}
+
+.search {
+    width: 250px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 
 
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #32425c;
+}
+
+.site-navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.offers {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.offers__item {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 123px;
+}
+
+.slider {
+    width: 620px;
+    margin: 0;
+    padding: 0;
+}
+
+.sliders {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: red;
+    height: 266px;
+}
+
+.sliders li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.popular-goods-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #f9f5f0;
+    margin-bottom: 15px;
+}
+
+.popular-manufacturers-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #f9f5f0;
+    margin-bottom: 15px;
+}
+
+.popular-goods-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+
+.servises {
+    background-color: #f4f8f9;
+}
+
+.popular-manufacturers-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters-and-catalog-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.sorting {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f3ec;
+}
+
+.sorting-top {
+    list-style: none;
+}
+
+.sorting-top li {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.popular-manufacturers-item {
+    width: 220px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about-company-wrapper {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pagination-list li {
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+
+.about-category-wrapper {
+    background-color: #f2f6f8;
+}
+
+.main-footer {
+    margin-top: 86px;
+    margin-bottom: 50px;
+}
+
+
+
+.footer-navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation {
+    display: flex;
+}
+
+.footer-price {
+    display: flex;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-social-buttons {
+    display: flex;
+}
 
