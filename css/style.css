@@ -204,6 +204,12 @@ a {
     color: #000000;
 }
 
+.breadcrumps a {
+    color: #000000;
+}
+
+
+
 .inner-page .container h2 {
     color: #32425c;
     background-color: #f2f6f8;
@@ -395,6 +401,10 @@ a {
     color: #ffffff;
 }
 
+.servises__list {
+    list-style: none;
+}
+
 .main-footer {
     color: #ffffff;
     background-color: #32425c;
@@ -424,6 +434,10 @@ a {
     color: #ffffff;
 }
 
+.servises-headline {
+    color: #32425c;
+}
+
 
 .footer-navigation a:focus,
 .footer-navigation a:hover,
@@ -443,6 +457,7 @@ a {
 .footer-copyright a:focus,
 .footer-copyright a:hover {
     text-decoration: underline;
+    background-color: transparent;
 }
 
 .footer-feedback a:active,
@@ -559,7 +574,7 @@ a {
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color: red;
+    background-color: #685c53;
     height: 266px;
 }
 
@@ -617,6 +632,10 @@ a {
     flex-direction: row;
 }
 
+.filter-title {
+    background-color: #f7f3ec;
+}
+
 .sorting {
     display: flex;
     justify-content: space-between;
@@ -630,6 +649,26 @@ a {
 .sorting-top li {
     justify-content: space-between;
     padding: 10px;
+}
+
+.sorting-item-first {
+    color: #ee3643;
+}
+
+.sorting-item-first:hover,
+.sorting-item-first:focus {
+    text-decoration: underline;
+}
+
+.sorting-item {
+    color: #cbc8c2;
+    text-decoration: underline;
+}
+
+.sorting-item:hover,
+.sorting-item:focus {
+    color: #000000;
+    text-decoration: underline;
 }
 
 .catalog-list {
